@@ -128,6 +128,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    - label: "Youtube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://youtube.com/"
 
 # Site Footer
 footer:
@@ -150,6 +153,9 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
+    - label: "Youtube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://youtube.com/"
 
 
 # Reading Files
@@ -285,11 +291,31 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+
+      # 포스팅 옆에 프로필 띄울 지 여부
+      author_profile: false
+
+      # 읽는데 걸리는 시간 표시 여부
       read_time: true
+
+      # 댓글 기능 여부
       comments: true
+
+      # 공유 기능 여부
       share: true
+
       related: true
+
+      # 게시글 작성 날짜 표시 여부
       show_date : true
+      
+      # 목차 테이블
+      toc: true
+      toc_sticky: true
+      toc_label: 목차
+      toc_icon: "fas fa-paw"
+
+      # 이미지 쉽게 띄우기 위한 코드
+      typora-root-url: ../
 
 date_format: "%Y-%m-%d"
