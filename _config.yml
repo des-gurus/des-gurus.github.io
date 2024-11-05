@@ -117,7 +117,7 @@ author:
       icon: "fas fa-fw fa-link"
       url: "https://desgurus.github.io"
     - label: "X"
-      icon: "fab fa-fw fa-x-square"
+      icon: "fab fa-fw fa-x-twitter-square"
       # url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
