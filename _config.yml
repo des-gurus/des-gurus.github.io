@@ -104,27 +104,18 @@ analytics:
 
 # Site Author
 author:
-  name             : "데구루"
+  name             : "Des Gurus"
   avatar           : "/assets/images/avatar.gif" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "🐻 + 🐰 = BEST"
-  location         : "Somewhere"
-  email            :
+  bio              : "👾 + 🎮"
+  # location         : ""
+  # email            : ""
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:des.gurus404@gmail.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://desgurus.github.io"
     - label: "X"
-      icon: "fab fa-fw fa-x-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      icon: "fab fa-fw fa-twitter"
+      url: "https://twitter.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://instagram.com/"
     - label: "Youtube"
       icon: "fab fa-fw fa-youtube"
       url: "https://youtube.com/"
@@ -132,21 +123,9 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
+    - label: "x-twitter"
+      icon: "fab fa-fw fa-x-twitter"
+      url: "https://youtube.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
@@ -289,8 +268,8 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
-
+      layout: archive-single2
+      sidebar_main: true
       # 포스팅 옆에 프로필 띄울 지 여부
       author_profile: false
 
@@ -312,7 +291,7 @@ defaults:
       toc: true
       toc_sticky: true
       toc_label: 목차
-      toc_icon: "fas fa-paw"
+      toc_icon: "fas fa-quote-left"
 
       # 이미지 쉽게 띄우기 위한 코드
       typora-root-url: ../
